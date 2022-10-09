@@ -1,4 +1,4 @@
-FROM node:16-alpine as builder
+FROM --platform=linux/amd64 node:16-alpine as builder
 
 COPY . .
 
